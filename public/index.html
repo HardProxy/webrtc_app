@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<head>
+<title>APP WEBRTC - ASAWEB</title>
+</head>
+
+<body>
+<!--Divisória para a determinação do númeto da sala -->
+<div id='selectRoom'>
+<label>Digite o número da Sala :</label>
+<input id='roomNumber' type='text'>
+<button id='goRoom'> Ir para sala </button>
+</div>
+
+<!--Divisório para videos-->
+<div id='consultingRoom' style='display:nome'>
+<video id='localVideo' autoplay ></video>
+<video id='remoteVideo' autoplay></video>
+</div>
+
+<!--Acesso aos módulos do javascript-->
+<script src='/socket.io/socket.io.js'></script>
+<script src='client.js'></script>
+</body>
